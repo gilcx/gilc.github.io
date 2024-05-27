@@ -1,10 +1,11 @@
 import './home.css';
 import DynamicText from './components/DynamicText';
 import ParticlesComponent from './components/ParticlesComponent';
-
+import Navbar from './components/Navbar.js';
 export default function Home() {
   return (
     <div className="body">
+      <Navbar/>
       <div className="title">
         <h1>Christopher Gil</h1>
         <h2>is a</h2>
