@@ -1,5 +1,4 @@
-import Image from "next/image";
-import './home.css'
+import './home.css';
 import DynamicText from './components/DynamicText';
 import ParticlesComponent from './components/ParticlesComponent';
 
