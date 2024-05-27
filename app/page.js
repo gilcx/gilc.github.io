@@ -1,22 +1,7 @@
 import Image from "next/image";
 import './home.css'
 import DynamicText from './components/DynamicText';
-
-import ParticlesComponent from "./components/ParticlesComponent";
-
-
-const phrases = [
-  "Quick Learner",
-  "Game Developer",
-  "Problem Solver",
-  "Java Developer",
-  "C++ Developer",
-  "Unity Developer",
-  "Python Developer",
-  "Cybersecurity enthusiast",
-  "Full-stack Developer",
-  "Teamplayer",
-];
+import ParticlesComponent from './components/ParticlesComponent';
 
 export default function Home() {
   return (
