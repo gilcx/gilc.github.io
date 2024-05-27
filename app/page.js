@@ -9,7 +9,7 @@ export default function Home() {
         <h1>Christopher Gil</h1>
         <h2>is a</h2>
         <DynamicText />
-        <h3>Here's some of my work:</h3>
+        <h3>Here&rsquo;s some of my work:</h3>
         <h4>Want to see more?</h4>
       </div>
       
