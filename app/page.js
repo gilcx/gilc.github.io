@@ -1,9 +1,12 @@
 import Image from "next/image";
 import './home.css'
+import DynamicText from './components/DynamicText';
+
 import ParticlesComponent from "./components/ParticlesComponent";
 
 
 const phrases = [
+  "Quick Learner",
   "Game Developer",
   "Problem Solver",
   "Java Developer",
@@ -21,7 +24,8 @@ export default function Home() {
       <div className="title">
         <h1>Christopher Gil</h1>
         <h2>is a</h2>
-        <h3>Some of my work:</h3>
+        <DynamicText />
+        <h3>Here's some of my work:</h3>
         <h4>Want to see more?</h4>
       </div>
       
