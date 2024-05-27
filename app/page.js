@@ -17,9 +17,9 @@ export default function Home() {
       </div>
       <div className="projects">
         <div className="projectcards">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          <ProjectCard imagePath="/images/arrowdynamix-thumb.png" title="Arrow Dynamix"/>
+          <ProjectCard imagePath="/images/QUDM-thumb.png" title="QUDM Website"/>
+          <ProjectCard imagePath="/images/spacerace-thumb.png" title="Space Race"/>
         </div>
         <h4>Want to see more?</h4>
       </div>
